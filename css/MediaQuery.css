@@ -1,0 +1,378 @@
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+/*
+     body{
+        background-color: #fff !important;
+    }
+*/
+    .navbar-brand {
+
+      padding-left: .2rem;
+    }
+    .main-header {
+        position: relative;
+        height: 130vh;
+    }
+    
+    .navbar-nav{
+        margin-left: .7rem;
+    }
+    .navbar .navbar-nav .nav-item  .nav-link{
+        font-size: 1rem;
+        font-weight: 400;
+    }
+     .main-header  .text{
+        padding: 10rem 0 5rem 0;
+    
+    }
+    .main-header  .text h1{
+        font-size: 2rem
+    }
+    .main-header  .text p{
+        font-size: .9rem;
+        
+    }
+    .Intro{
+        transform: rotate(0deg);
+        left: 10vw;
+         margin-top: 7rem;
+        
+    }
+
+     .Intro .hr-style{
+        width: 26vw;
+        border-top: 1px solid #C3C3C3;
+        margin: .8rem .7rem;
+
+
+    }
+    .offerd .Intro{
+        transform: rotate(0deg);
+        left: 18vw;
+         margin-top:-3rem;
+        
+    }
+     .trending .Intro,.featured-team .Intro,.story .Intro{
+            margin-top: -5.6vh;
+            left: 24vw;
+            
+    }
+    .trending .All-product{
+        padding-left: 35%;
+        padding-top: 1rem;
+    
+    }
+    .collection .btn{
+        padding: .15rem .3rem !important;
+        font-size: .9rem;
+        font-weight: 300;
+    }
+    .collection h6{
+        font-size: .8rem !important;
+    }
+    .Feed .insta-overlay{
+        margin-left: -4rem ;
+      
+
+    }
+    .collection .overlay-left{
+        left: 40%;
+    }
+    .collection .overlay-left h6,.collection .overlay-right h6{
+
+        margin-bottom: .6rem !important;
+        letter-spacing: .5px;
+        font-weight: 500;
+        font-size: .9rem;
+    }
+
+    .subscribe h3{
+        color: #000;
+        font-weight: 700;
+        
+        line-height: 1.2;
+        letter-spacing: 1px;
+        font-size: 1rem;
+    }
+    .subscribe h3 span{
+      
+        font-size: .9rem !important;
+    }
+    .subscribe .form-control{
+        width: 217px !important;
+        font-size: .99rem;
+
+    }
+    .subscribe .btn{
+        padding: .3rem 1.3rem !important;
+    }
+    .subscribe .back p{
+        text-align: center;
+        line-height: 1.4;
+        letter-spacing: 1px;
+        font-size: .9rem;
+
+    }
+    .Feed .insta-overlay{   
+        top: 39%;
+        padding: 5px 15px;
+ 
+    }
+
+
+    
+
+    
+    
+    
+    
+    
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+/*
+     body{
+        background-color: aqua !important;
+    }
+*/
+    .navbar-brand {
+
+      padding-left: 1rem;
+    }
+    .navbar-nav{
+        margin-left: 2rem;
+    }
+    
+    .navbar .navbar-nav .nav-item  .nav-link{
+        font-size: 1.1rem;
+        font-weight: 500;
+    }
+
+    .main-header  .text{
+        padding: 10rem 1rem 6rem 1rem;
+    
+    }
+    .main-header  .text h1{
+        font-size: 2.2rem
+    }
+    .main-header  .text p{
+        font-size: 1rem;
+        padding: 1rem 11rem 1rem 1rem;
+        
+    }
+    .Intro{
+        transform: rotate(0deg);
+        left: 8vw;
+         margin-top: 8rem;
+        
+    }
+
+    .Intro .hr-style{
+        width: 26vw;
+        border-top: 1px solid #C3C3C3;
+        margin: .8rem .7rem;
+
+
+    }
+    .offerd .Intro{
+        transform: rotate(0deg);
+        left: 22vw;
+         margin-top:-3rem;
+        
+    }
+     .trending .Intro{
+            margin-top: -5.6vh;
+            left: 26vw;
+    }
+    .trending .All-product{
+        padding-left: 33%;
+        padding-top: 1rem;
+    
+    }
+    .featured-team .Intro,.story .Intro{
+        margin-top: -5.6vh;
+        left: 26vw;
+    }
+  
+    
+
+    
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+/*
+     body{
+        background-color: red !important;
+    }
+*/
+    .navbar-brand {
+
+      padding-left: 3rem;
+    }
+    .navbar-nav{
+        margin-left: 3.4rem;
+    }
+    .navbar .navbar-nav .nav-item  .nav-link{
+        font-size: 1.4rem;
+        font-weight: 500;
+    }
+     .main-header  .text{
+        padding: 12rem 5rem 0 5rem;
+    
+    }
+     .Intro{
+        transform: rotate(0deg);
+        left: 14vw;
+         margin-top: 9rem;
+        
+    }
+   
+     .Intro .hr-style{
+        width: 26vw;
+        border-top: 1px solid #C3C3C3;
+        margin: .8rem .7rem;
+
+    }
+    
+    .offerd .Intro{
+        
+         left: 30vw;
+         margin-top:-3rem;
+        
+    }
+    .trending{
+        margin: 6rem 0;
+  
+    }
+    .trending .Intro{
+            margin-top: -5.6vh;
+            left: 30vw;
+    }
+    .trending .All-product{
+        justify-content: center;
+        margin-left: 8%;
+    
+    }
+    .trending .nav {
+        justify-content: center;
+    
+    }
+    
+  
+   
+  
+   
+    
+    
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+/*
+    body{
+        background-color: green !important;
+    }
+*/
+    .navbar-brand {
+
+      padding-left: 4rem;
+    }
+    
+    .navbar .navbar-nav .nav-item  .nav-link{
+        font-size: 1rem;
+        font-weight: 400;
+    }
+     .main-header  .text{
+        padding: 10rem 5rem 0 5rem;
+    
+    }
+    .main-header  .text h1{
+        font-size: 2.7rem;
+    }
+    .main-header  .text p{
+        font-size: 1rem;
+       padding: 1rem .5rem;
+        
+    }
+     .Intro{
+        transform: rotate(0deg);
+        left: 10%;
+         display: flex;
+         margin-top: 10%;
+        
+    }
+    .offerd .Intro,.trending .Intro {
+        
+         left: 11%;
+         margin-top: -4%;
+        
+    }
+     
+   
+     .Intro .hr-style{
+        width: 16vw;
+        border-top: 1px solid #C3C3C3;
+        margin: .8rem .7rem;
+
+
+    }
+    .trending .All-product{
+       
+    
+    }
+    .trending .nav {
+        justify-content: start ;
+    }
+    
+
+    
+    
+    
+      
+    
+  
+   
+   
+    
+    
+    
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+/*
+     body{
+        background-color: gold!important;
+    }
+*/
+    .navbar-brand {
+
+       padding-left: 7rem;
+    }
+    
+    .navbar .navbar-nav .nav-item  .nav-link{
+        font-size: 1.03rem;
+        font-weight: 500;
+    }
+    .Intro,.offerd .Intro ,.trending .Intro,.featured-team .Intro,.story .Intro{
+        transform: rotate(270deg);
+        left: -8%;
+         display: flex;
+         margin-top: 20%;
+        
+    }
+   
+    
+   
+   
+   
+    
+    
+    
+}
+
+
+
+
